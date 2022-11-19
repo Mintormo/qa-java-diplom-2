@@ -1,0 +1,56 @@
+{
+  "uid" : "ac720c1869cbaebb",
+  "name" : "Вход в систему с существующей учетной записью пользователя",
+  "fullName" : "ru.yandex.praktikum.LoginTest.loginExistsUser",
+  "historyId" : "a329a567439990b711c2f725b15aab88",
+  "time" : {
+    "start" : 1668304144135,
+    "stop" : 1668304145354,
+    "duration" : 1219
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginExistsUser"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "ipershikov"
+  }, {
+    "name" : "thread",
+    "value" : "9544@ipershikov.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac720c1869cbaebb.json",
+  "parameterValues" : [ ]
+}

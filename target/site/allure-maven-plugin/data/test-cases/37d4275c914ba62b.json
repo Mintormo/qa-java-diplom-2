@@ -1,0 +1,56 @@
+{
+  "uid" : "37d4275c914ba62b",
+  "name" : "Регистрация нового пользователя без указания пароля",
+  "fullName" : "ru.yandex.praktikum.MakeUserTest.makeUserWithoutPassword",
+  "historyId" : "da37caf0119993d5628f96b3a9e3bff7",
+  "time" : {
+    "start" : 1668304156469,
+    "stop" : 1668304156781,
+    "duration" : 312
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.MakeUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "makeUserWithoutPassword"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.MakeUserTest"
+  }, {
+    "name" : "host",
+    "value" : "ipershikov"
+  }, {
+    "name" : "thread",
+    "value" : "9544@ipershikov.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37d4275c914ba62b.json",
+  "parameterValues" : [ ]
+}

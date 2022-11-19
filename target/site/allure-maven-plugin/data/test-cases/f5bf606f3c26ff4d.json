@@ -1,0 +1,56 @@
+{
+  "uid" : "f5bf606f3c26ff4d",
+  "name" : "Успешная смена пароля авторизованным пользователем",
+  "fullName" : "ru.yandex.praktikum.UpdateUserDataTest.passwordChangeWithAuthSuccess",
+  "historyId" : "54308ee9f617d3c775448064d4928b55",
+  "time" : {
+    "start" : 1668304156881,
+    "stop" : 1668304160092,
+    "duration" : 3211
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.UpdateUserDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "passwordChangeWithAuthSuccess"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.UpdateUserDataTest"
+  }, {
+    "name" : "host",
+    "value" : "ipershikov"
+  }, {
+    "name" : "thread",
+    "value" : "9544@ipershikov.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5bf606f3c26ff4d.json",
+  "parameterValues" : [ ]
+}

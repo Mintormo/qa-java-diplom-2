@@ -1,0 +1,56 @@
+{
+  "uid" : "43cafcde780e9dee",
+  "name" : "Успешная смена почтового адреса авторизованным пользователем",
+  "fullName" : "ru.yandex.praktikum.UpdateUserDataTest.emailDataChangeWithAuthSuccess",
+  "historyId" : "b98da32321fbca1a639112750c45afd8",
+  "time" : {
+    "start" : 1668304163196,
+    "stop" : 1668304165177,
+    "duration" : 1981
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.UpdateUserDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "emailDataChangeWithAuthSuccess"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.UpdateUserDataTest"
+  }, {
+    "name" : "host",
+    "value" : "ipershikov"
+  }, {
+    "name" : "thread",
+    "value" : "9544@ipershikov.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43cafcde780e9dee.json",
+  "parameterValues" : [ ]
+}

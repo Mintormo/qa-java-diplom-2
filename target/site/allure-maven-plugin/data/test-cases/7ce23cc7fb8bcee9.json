@@ -1,0 +1,56 @@
+{
+  "uid" : "7ce23cc7fb8bcee9",
+  "name" : "Успешное создание нового пользователя",
+  "fullName" : "ru.yandex.praktikum.MakeUserTest.makeUniqueUserSuccess",
+  "historyId" : "c5e1815736cf15c08cf22d90055b589e",
+  "time" : {
+    "start" : 1668304155724,
+    "stop" : 1668304156422,
+    "duration" : 698
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.praktikum"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.praktikum.MakeUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "makeUniqueUserSuccess"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.praktikum.MakeUserTest"
+  }, {
+    "name" : "host",
+    "value" : "ipershikov"
+  }, {
+    "name" : "thread",
+    "value" : "9544@ipershikov.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ce23cc7fb8bcee9.json",
+  "parameterValues" : [ ]
+}
