@@ -1,7 +1,11 @@
 package ru.yandex.praktikum;
 
+import com.google.gson.annotations.SerializedName;
+
 public class IngredientsData {
-    private String _id;
+
+    @SerializedName(value = "_id")
+    private String id;
     private String name;
     private String type;
     private int proteins;
@@ -12,12 +16,16 @@ public class IngredientsData {
     private String image;
     private String image_mobile;
 
+    private String image_large;
+
+    @SerializedName(value = "__v")
+    private int v;
+
     public IngredientsData() {
     }
 
-    public IngredientsData(String _id, String name, String type, int proteins, int fat, int carbohydrates, int calories,
-                           int price, String image, String image_mobile, String image_large, int __v) {
-        this._id = _id;
+    public IngredientsData(String id, String name, String type, int proteins, int fat, int carbohydrates, int calories, int price, String image, String image_mobile, String image_large, int v) {
+        this.id = id;
         this.name = name;
         this.type = type;
         this.proteins = proteins;
@@ -28,15 +36,15 @@ public class IngredientsData {
         this.image = image;
         this.image_mobile = image_mobile;
         this.image_large = image_large;
-        this.__v = __v;
+        this.v = v;
     }
 
-    public String get_id() {
-        return _id;
+    public String getId() {
+        return id;
     }
 
-    public void set_id(String _id) {
-        this._id = _id;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -119,14 +127,11 @@ public class IngredientsData {
         this.image_large = image_large;
     }
 
-    public int get__v() {
-        return __v;
+    public int getV() {
+        return v;
     }
 
-    public void set__v(int __v) {
-        this.__v = __v;
+    public void setV(int v) {
+        this.v = v;
     }
-
-    private String image_large;
-    private int __v;
 }

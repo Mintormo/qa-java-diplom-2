@@ -17,7 +17,7 @@ public class GetOrderDataUserTest extends BaseTest {
         makeUserAndLogin();
         IngredientsResponse ingredients = getIgredients();
         ArrayList<String> ings = new ArrayList<String>();
-        ings.add(ingredients.getData().get(0).get_id());
+        ings.add(ingredients.getData().get(0).getId());
         makeOrder(true, false, ings);
 
         RequestSpecification request = RestAssured.given();
@@ -35,7 +35,7 @@ public class GetOrderDataUserTest extends BaseTest {
         makeUserAndLogin();
         IngredientsResponse ingredients = getIgredients();
         ArrayList<String> ings = new ArrayList<String>();
-        ings.add(ingredients.getData().get(0).get_id());
+        ings.add(ingredients.getData().get(0).getId());
         makeOrder(true, false, ings);
 
         RequestSpecification request = RestAssured.given();

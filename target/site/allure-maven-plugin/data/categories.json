@@ -7,13 +7,13 @@
       "name" : "1 expectation failed.\nExpected status code <500> but was <400>.\n",
       "children" : [ {
         "name" : "Создание заказа авторизованным пользователем. Хэш ингредиента некорректен",
-        "uid" : "bf0ec174c71b40ec",
+        "uid" : "674927427c423ddf",
         "parentUid" : "cf36ef845d6cdce17f3e00fe380ef30f",
         "status" : "failed",
         "time" : {
-          "start" : 1668304147126,
-          "stop" : 1668304148801,
-          "duration" : 1675
+          "start" : 1669061277921,
+          "stop" : 1669061280327,
+          "duration" : 2406
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "1 expectation failed.\nExpected status code <401> but was <400>.\n",
       "children" : [ {
         "name" : "Создание заказа не авторизованным пользователем без указания ингредиентов",
-        "uid" : "423c91c31fa9750c",
+        "uid" : "4c713a85fa0b2965",
         "parentUid" : "c076f4451a6f215ee71b72106dae653c",
         "status" : "failed",
         "time" : {
-          "start" : 1668304151332,
-          "stop" : 1668304152673,
-          "duration" : 1341
+          "start" : 1669061283179,
+          "stop" : 1669061284932,
+          "duration" : 1753
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "1 expectation failed.\nExpected status code <401> but was <200>.\n",
       "children" : [ {
         "name" : "Создание заказа не авторизованным пользователем со списком ингредиентов",
-        "uid" : "ea671d196bb05515",
+        "uid" : "ce35c557b7e80020",
         "parentUid" : "5c5b8d4f37e62d5e06845d2a3a1b3b9e",
         "status" : "failed",
         "time" : {
-          "start" : 1668304152720,
-          "stop" : 1668304154137,
-          "duration" : 1417
+          "start" : 1669061284966,
+          "stop" : 1669061287307,
+          "duration" : 2341
         },
         "flaky" : false,
         "newFailed" : false,

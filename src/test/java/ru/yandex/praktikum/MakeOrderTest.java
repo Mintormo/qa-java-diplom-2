@@ -12,7 +12,7 @@ public class MakeOrderTest extends BaseTest {
         makeUserAndLogin();
         IngredientsResponse ingredients = getIgredients();
         ArrayList<String> ings = new ArrayList<String>();
-        ings.add(ingredients.getData().get(0).get_id());
+        ings.add(ingredients.getData().get(0).getId());
         makeOrder(true, false, ings);
     }
     @Test
@@ -28,7 +28,7 @@ public class MakeOrderTest extends BaseTest {
         makeUserAndGetTokens();
         IngredientsResponse ingredients = getIgredients();
         ArrayList<String> ings = new ArrayList<String>();
-        ings.add(ingredients.getData().get(0).get_id());
+        ings.add(ingredients.getData().get(0).getId());
         makeOrder(false, false, ings);
     }
     @Test
@@ -44,7 +44,7 @@ public class MakeOrderTest extends BaseTest {
         makeUserAndLogin();
         IngredientsResponse ingredients = getIgredients();
         ArrayList<String> ings = new ArrayList<String>();
-        StringBuilder incorrectHash = new StringBuilder(ingredients.getData().get(0).get_id());
+        StringBuilder incorrectHash = new StringBuilder(ingredients.getData().get(0).getId());
         incorrectHash.setCharAt(0,'d');
         ings.add(incorrectHash.toString());
         makeOrder(true, true, ings);
