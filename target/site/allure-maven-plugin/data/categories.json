@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <500> but was <400>.\n",
+      "children" : [ {
+        "name" : "Создание заказа авторизованным пользователем. Хэш ингредиента некорректен",
+        "uid" : "674927427c423ddf",
+        "parentUid" : "cf36ef845d6cdce17f3e00fe380ef30f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669061277921,
+          "stop" : 1669061280327,
+          "duration" : 2406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf36ef845d6cdce17f3e00fe380ef30f"
+    }, {
+      "name" : "1 expectation failed.\nExpected status code <401> but was <400>.\n",
+      "children" : [ {
+        "name" : "Создание заказа не авторизованным пользователем без указания ингредиентов",
+        "uid" : "4c713a85fa0b2965",
+        "parentUid" : "c076f4451a6f215ee71b72106dae653c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669061283179,
+          "stop" : 1669061284932,
+          "duration" : 1753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c076f4451a6f215ee71b72106dae653c"
+    }, {
+      "name" : "1 expectation failed.\nExpected status code <401> but was <200>.\n",
+      "children" : [ {
+        "name" : "Создание заказа не авторизованным пользователем со списком ингредиентов",
+        "uid" : "ce35c557b7e80020",
+        "parentUid" : "5c5b8d4f37e62d5e06845d2a3a1b3b9e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669061284966,
+          "stop" : 1669061287307,
+          "duration" : 2341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c5b8d4f37e62d5e06845d2a3a1b3b9e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

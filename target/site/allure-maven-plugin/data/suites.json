@@ -1,0 +1,298 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.yandex.praktikum.GetOrderDataUserTest",
+    "children" : [ {
+      "name" : "Получение списка заказов не авторизованного пользователя",
+      "uid" : "46e6c780cc5a9a52",
+      "parentUid" : "5ed61990a196d33a205ece6ffed0f4af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061254888,
+        "stop" : 1669061267359,
+        "duration" : 12471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Получение списка заказов авторизованного пользователя",
+      "uid" : "d3d2a19a69f9febf",
+      "parentUid" : "5ed61990a196d33a205ece6ffed0f4af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061267477,
+        "stop" : 1669061271132,
+        "duration" : 3655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5ed61990a196d33a205ece6ffed0f4af"
+  }, {
+    "name" : "ru.yandex.praktikum.LoginTest",
+    "children" : [ {
+      "name" : "Вход в систему с некорректным паролем",
+      "uid" : "7e90c856c6098005",
+      "parentUid" : "acf86201ee4feaf724d5b1ba5fd29b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061271161,
+        "stop" : 1669061272771,
+        "duration" : 1610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход в систему с некорректным логином",
+      "uid" : "c87fb5c41e68a9d",
+      "parentUid" : "acf86201ee4feaf724d5b1ba5fd29b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061272788,
+        "stop" : 1669061274129,
+        "duration" : 1341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход в систему с существующей учетной записью пользователя",
+      "uid" : "64f0821dea08b596",
+      "parentUid" : "acf86201ee4feaf724d5b1ba5fd29b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061274143,
+        "stop" : 1669061276076,
+        "duration" : 1933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "acf86201ee4feaf724d5b1ba5fd29b88"
+  }, {
+    "name" : "ru.yandex.praktikum.MakeOrderTest",
+    "children" : [ {
+      "name" : "Создание заказа с пустым списком ингредиентов авторизованным пользователем",
+      "uid" : "485c2620d6e4348f",
+      "parentUid" : "fed189d29fec54143ecefaa31d93af43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061276095,
+        "stop" : 1669061277895,
+        "duration" : 1800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа авторизованным пользователем. Хэш ингредиента некорректен",
+      "uid" : "674927427c423ddf",
+      "parentUid" : "fed189d29fec54143ecefaa31d93af43",
+      "status" : "failed",
+      "time" : {
+        "start" : 1669061277921,
+        "stop" : 1669061280327,
+        "duration" : 2406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа с ингредиентами авторизованным пользователем",
+      "uid" : "c84c99841defd082",
+      "parentUid" : "fed189d29fec54143ecefaa31d93af43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061280340,
+        "stop" : 1669061283150,
+        "duration" : 2810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа не авторизованным пользователем без указания ингредиентов",
+      "uid" : "4c713a85fa0b2965",
+      "parentUid" : "fed189d29fec54143ecefaa31d93af43",
+      "status" : "failed",
+      "time" : {
+        "start" : 1669061283179,
+        "stop" : 1669061284932,
+        "duration" : 1753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа не авторизованным пользователем со списком ингредиентов",
+      "uid" : "ce35c557b7e80020",
+      "parentUid" : "fed189d29fec54143ecefaa31d93af43",
+      "status" : "failed",
+      "time" : {
+        "start" : 1669061284966,
+        "stop" : 1669061287307,
+        "duration" : 2341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fed189d29fec54143ecefaa31d93af43"
+  }, {
+    "name" : "ru.yandex.praktikum.MakeUserTest",
+    "children" : [ {
+      "name" : "Попытка создать пользователя, который уже существует",
+      "uid" : "4f0fe97163060379",
+      "parentUid" : "e3a3dd2a2f3affd68eaf073b53de23e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061287329,
+        "stop" : 1669061288130,
+        "duration" : 801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Регистрация нового пользователя без указания почты",
+      "uid" : "501f8b061d1b5380",
+      "parentUid" : "e3a3dd2a2f3affd68eaf073b53de23e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061288142,
+        "stop" : 1669061288565,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Регистрация нового пользователя без указания имени",
+      "uid" : "953b49517ac5b906",
+      "parentUid" : "e3a3dd2a2f3affd68eaf073b53de23e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061288590,
+        "stop" : 1669061289051,
+        "duration" : 461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное создание нового пользователя",
+      "uid" : "80a9ffd350ed35b0",
+      "parentUid" : "e3a3dd2a2f3affd68eaf073b53de23e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061289070,
+        "stop" : 1669061289994,
+        "duration" : 924
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Регистрация нового пользователя без указания пароля",
+      "uid" : "ce29d3967aeca348",
+      "parentUid" : "e3a3dd2a2f3affd68eaf073b53de23e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061290007,
+        "stop" : 1669061290399,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e3a3dd2a2f3affd68eaf073b53de23e4"
+  }, {
+    "name" : "ru.yandex.praktikum.UpdateUserDataTest",
+    "children" : [ {
+      "name" : "Успешная смена пароля авторизованным пользователем",
+      "uid" : "6194ba9092ecf4dc",
+      "parentUid" : "fd3e164deccfb39ba5fe0ffccadda525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061290435,
+        "stop" : 1669061293695,
+        "duration" : 3260
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Неудачная смена почтового адреса не авторизованным пользователем",
+      "uid" : "7d13db4d573775cd",
+      "parentUid" : "fd3e164deccfb39ba5fe0ffccadda525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061293713,
+        "stop" : 1669061295863,
+        "duration" : 2150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Неудачная смена имени не авторизованным пользователем",
+      "uid" : "17ae864d511d4a9f",
+      "parentUid" : "fd3e164deccfb39ba5fe0ffccadda525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061295876,
+        "stop" : 1669061297552,
+        "duration" : 1676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная смена почтового адреса авторизованным пользователем",
+      "uid" : "1ee40114b96d5fd8",
+      "parentUid" : "fd3e164deccfb39ba5fe0ffccadda525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061297572,
+        "stop" : 1669061299373,
+        "duration" : 1801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная смена имени авторизованным пользователем",
+      "uid" : "30d529142f25cc21",
+      "parentUid" : "fd3e164deccfb39ba5fe0ffccadda525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061299399,
+        "stop" : 1669061301381,
+        "duration" : 1982
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Неудачная смена пароля не авторизованным пользователем",
+      "uid" : "2f7276c51d6fd003",
+      "parentUid" : "fd3e164deccfb39ba5fe0ffccadda525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669061301395,
+        "stop" : 1669061303123,
+        "duration" : 1728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fd3e164deccfb39ba5fe0ffccadda525"
+  } ]
+}
